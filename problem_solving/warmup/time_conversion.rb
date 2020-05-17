@@ -3,6 +3,10 @@
 #
 # Complete the timeConversion function below.
 #
+# Note:
+# 12-hour format is different between US and Japan.
+# https://ja.wikipedia.org/wiki/午前と午後
+
 def timeConversion(s)
     if s == '12:00:00AM'
         return '00:00:00'
