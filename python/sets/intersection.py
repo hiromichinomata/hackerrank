@@ -1,0 +1,5 @@
+n1 = int(input().strip())
+t1 = set(map(int, input().strip().split()))
+n2 = int(input().strip())
+t2 = set(map(int, input().strip().split()))
+print(len(t1.intersection(t2)))
